@@ -1,0 +1,66 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Mohammad Khalid Alam
+title: Talent Hacker
+email: khalid.iraqui@gmail.com
+website: khalidiraqui.github.io
+
+# Social links
+twitter_username: khalidiraqui
+github_username:  Khalidiraqui
+dribbble_username: jekyll
+facebook_username: khalid.iraqui
+flickr_username: jekyll
+instagram_username: khalidiraqui
+linkedin_username: khalid.iraqui
+pinterest_username: jekyll
+youtube_username: jekyll
+googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  3+ years progressive HR experience in Digital Media, Mobile Media, and Information Technology Industry working in Talent Acquisition, HR Processes, Employee Engagement, HR system and entire employee life cycle Management.
+  
+  Competencies: Talent Acquisition, Candidate & Requisition Management, Stakeholder Relationship Management, Strategic Sourcing, Channel Management, Process Streamlining and Vendor Management.
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Company: Craftsvilla title: Sr. Executive Talent Aquisition 
+
+# Education Section
+# educaton_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+  
+more_content: | # this will include new lines to allow paragraphs
+  <mark>Photography</mark> , 
+  <mark>Food Blogging</mark> , 
+  <mark>Travelling</mark> , 
+  <mark>Swimming</mark> ,
+  <mark>Gadgets</mark>,
+  <mark>E-Gaming</mark>
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+theme: jekyll-theme-midnight
